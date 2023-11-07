@@ -1,6 +1,5 @@
 ﻿/*=============================================================
-    Authour : Naveen Upadhyay
-    License: 
+    Authour : Naveen Upadhyay, Manish Nayak, Ravipati Venkatat Sai Mohan Kumar Bhanu
    
     ========================================================  */
 
@@ -321,6 +320,13 @@ overlay a:hover {
   background-size: cover;
 }
 
+.sustainability-buttons a {
+  padding: 2px;
+}
+
+.img-responsive {
+  margin-top: 30px;
+}
 #help .overlay {
   background: rgba(32, 32, 32, 0.3);
   padding-top: 80px;
