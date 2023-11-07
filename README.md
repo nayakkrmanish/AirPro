@@ -56,7 +56,7 @@ I am elated and deeply thankful for the opportunity to contribute as a backend d
 
 I extend my heartfelt thanks to **Sandeep Sharma** for the invaluable advice and guidance provided throughout the design phase of the frontend. Your insights and recommendations regarding user interface and user experience have been incredibly insightful and beneficial.
 
-I'd also like to extend my sincere gratitude to **Presentij Adak Sir**, whose guidance and support have been instrumental in steering us through this project. Your leadership and belief in our abilities have been invaluable.
+I'd also like to extend my sincere gratitude to **Dr. Presenjit Adak Sir**, whose guidance and support have been instrumental in steering us through this project. Your leadership and belief in our abilities have been invaluable.
 
 Finally, a heartfelt thank you to **Lovely Professional University** for providing us with the platform and resources to bring this project to life. Your support is deeply appreciated.
 
