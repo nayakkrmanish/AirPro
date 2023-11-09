@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license
-
-Copyright (c) Naveen Upadhyay
-*/
-
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

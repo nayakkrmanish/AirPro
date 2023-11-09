@@ -1,5 +1,5 @@
 ﻿<!-- *=============================================================
-    Authour : Naveen Upadhyay, Manish Nayak, Ravipati Venkatat Sai Mohan Kumar Bhanu
+    Authour : Sandeep Sharma, Shish Tatan Choudary, Gautam Kumar
    
     ========================================================  -->
 
@@ -11,30 +11,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <!--[if IE]>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <![endif]-->
         <title>Breathe Blue</title>
         <!-- Website Logo -->
         <link href="../Airpro/public/assets/img/logo/favicon/leaf.ico" rel="icon" type = "image/x-icon">
         <!--  Bootstrap Style -->
         <link href="public/assets/css/bootstrap.css" rel="stylesheet" />
-        <!--  Font-Awesome Style -->
-        <link href="public/assets/css/font-awesome.min.css" rel="stylesheet" />
-        <!--  Animation Style -->
-        <link href="public/assets/css/animate.css" rel="stylesheet" />
-        <!--  Pretty Photo Style -->
-        <link href="public/assets/css/prettyPhoto.css" rel="stylesheet" />
         <!--  Google Font Style -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
         <!--  Custom Style -->
         <link href="public/assets/css/style.css" rel="stylesheet" />
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-        <!-- Embeding font styles for emphasising sections - subheading -->
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,9 +64,6 @@
                 <div class="row text-center">
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 sub-head">
                         <h2  data-wow-delay="0.3s" class="wow rollIn animated" ><strong>ABOUT </strong></h2>
-                        <!-- <p class="sub-head">Air Pollution is a parsing global issue that affects both the environment and human well being. <br> 
-                        In line with the SUSTAINABILIE DEVELOPMENT GOALS, our college project assigned by Dr. Prasentij Adak of LOVELY PROFESSIONAL UNIVERSITY aims to create a comprehensive website focused on promoting affordable and clean energy, responsible
-                        </p> -->
     
                         <p class="sub-head">
                             In a world increasingly shrouded in a haze of pollutants, air pollution stands as a silent yet deadly adversary, a pervasive threat to our health and the planet's well-being. 
@@ -206,20 +188,7 @@
                 </div>
             </div>
         </div>
-        <!--./ ABOUT SECTION END -->
-        <div class="donars-section">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row ">
-                        <h2>Visualizing a Decade of Air Pollution</h2>
-                        <!-- <iframe src="https://ourworldindata.org/grapher/absolute-number-of-deaths-from-ambient-particulate-air-pollution" loading="lazy" style="width: 400px; height: 600px; border: 0px none;"></iframe>
-                        <iframe src="https://ourworldindata.org/grapher/pollution-deaths-from-fossil-fuels" loading="lazy" style="width: 400px; height: 600px; border: 0px none;"></iframe> -->
-                        <iframe src="https://ourworldindata.org/grapher/share-above-who-pollution-guidelines" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--./ DONARS TESTIMONIALS END -->
+
         <div id="port-folio" class="pad-top-botm" >
             <div class="container">
                 <div class="row text-center ">
@@ -373,7 +342,6 @@
                     <div class="row ">
     
                         <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
-                            <!-- <iframe src="http://player.vimeo.com/video/18312392" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe> -->
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/Bce9ON9Z2VM?si=L3QT6X9zfVxRbPGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
     
@@ -418,7 +386,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <!-- Sustainability Image -->
-                    <img src="./public/assets/img/environment_sustain1.jpeg" alt="Sustainability" class="img-responsive" />
+                    <img src="./public/assets/img/sustainability.jpeg" alt="Sustainability" class="img-responsive" />
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="sustainability-content">
@@ -456,12 +424,6 @@
                             <div class="form-group" >
                                 <input type="text" name="cityName" class="form-control wow rotateIn animated" data-wow-delay="0.5s" required="required" placeholder="City Name">
                             </div>
-                            <!-- <div class="form-group">
-                                <input type="text" class="form-control wow rotateIn animated" required="required" data-wow-delay="0.6s" placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message"  required="required" data-wow-delay="0.7s" class="wow rotateIn animated form-control" style="min-height: 150px;" placeholder="Message"></textarea>
-                            </div> -->
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success btn-block btn-lg wow rotateIn animated " id="backendRes" data-wow-delay="0.8s">Fetch AQI</button>
                             </div>
@@ -481,20 +443,6 @@
                                                 },
                                                 body: JSON.stringify({ cityName: cityName })
                                             })
-                                            // .then(response => response.json())
-                                            // .then(data => {
-                                            //     const resultsDiv = document.getElementById('results');
-                                            //     const jsonDict = document.getElementsByClassName('json-dict')
-                                            //     // Construct the HTML content from the data received and update the results div
-                                            //     resultsDiv.innerHTML = `
-                                            //         <h3>Air Quality Information for ${data.name}</h3>
-                                            //         <p>AQI: ${data.aqi}</p>
-                                            //         <p>Carbon Monoxide (CO): ${data.co}</p>
-                                            //         <p>Nitric Oxide (NO): ${data.no}</p>
-                                            //         <p>Nitrogen Dioxide (NO2): ${data.no2}</p>
-                                            //         <p>Ozone (O3): ${data.o3}</p>
-                                            //     `;
-                                            // })
                                             .catch(error => {
                                                 console.error('Error:', error);
                                             });

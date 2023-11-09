@@ -1,5 +1,5 @@
 ﻿/*=============================================================
-    Authour : Naveen Upadhyay, Manish Nayak, Ravipati Venkatat Sai Mohan Kumar Bhanu
+    Authour : Sandeep Sharma, Shish Tatan Choudary, Gautam Kumar
    
     ========================================================  */
 
@@ -30,7 +30,6 @@ h2 {
   color: #ff0000;
   font-size: 4rem;
   font-weight: bolder;
-  /* font-family: "Poppins", sans-serif; */
   font-family: "Poppins", sans-serif;
 }
 h3 {
@@ -42,7 +41,7 @@ h3 {
   PRELOADER STYLES 
     ===================================*/
 #pre-div {
-  background-color: #fff;
+  background-color: black;
   bottom: 0;
   height: 100%;
   left: 0;
@@ -55,6 +54,8 @@ h3 {
   background-image: url("../img/loader.gif");
   background-position: center center;
   background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 100px;
   height: 200px;
   left: 50%;
   margin: -100px 0 0 -100px;
