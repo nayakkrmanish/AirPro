@@ -52,7 +52,7 @@ By the end of this project, we anticipate a fully functional website that not on
 
 I am elated and deeply thankful for the opportunity to contribute as a backend developer to this project. The journey has been immensely fulfilling and wouldn't have been possible without the collaborative efforts of an exceptional team:
 
-- **Naveen Upadhyay (Front End Developer)🎨🖌️:** Your creativity and dedication in crafting the front end have truly brought our vision to life. Thank you for your innovative contributions and unwavering support throughout this project.
+- **Naveen Upadhaya (Front End Developer)🎨🖌️:** Your creativity and dedication in crafting the front end have truly brought our vision to life. Thank you for your innovative contributions and unwavering support throughout this project.
 
 - **Ravipati Venkatat Sai Mohan Kumar Bhanu (Report Designer)📝👨🏻‍🔬:** Your meticulous eye for design and dedication to crafting comprehensive reports have added a whole new dimension to our project. Your expertise and hard work are truly commendable.
 
